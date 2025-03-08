@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+nav {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #d2afdb, #a04e99);
+    color: white;
+}
+section {
+    display: block; /* يجعل الأقسام تعمل كـ block */
+    width: 100%; /* يأخذ كل العرض */
+    padding: 20px; /* يضيف مسافة داخلية */
+    margin-bottom: 20px; /* يضيف مسافة بين الأقسام */
+    background-color: #f8f9fa; /* لون خلفية خفيف */
+    border-radius: 10px; /* زوايا مستديرة لإضافة لمسة جمالية */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* تأثير ظل خفيف */
+}
+
+#home {
+    margin-bottom: 50px; /* مسافة أسفل الهيدر */
+}
+#about {
+    background-color:#d2afdb; /* لون سماوي */
+}
+
+#work {
+    background-color: #d2afdb; /* لون وردي فاتح */
+}
+#contact{
+    background-color: #d2afdb;
+}
+input{
+    display:block;
+}
+
+
+
+
+
+
